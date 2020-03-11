@@ -20,4 +20,3 @@ def home():
     title = "Atividades Complementares"
     usuarios = Usuario.query.all()
     return render_template('index.html', titulo=title, usuarios=usuarios)
-
